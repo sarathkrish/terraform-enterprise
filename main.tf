@@ -18,7 +18,7 @@ terraform {
 
 module "app" {
   source  = "${var.module_source}"
-  version = "${var.module_version}"
+  version = "1.0.0"
   ami = "${var.ami}"
   instance_type = "${var.instance_type}"
   }
