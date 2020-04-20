@@ -18,7 +18,7 @@ terraform {
 
 module "app" {
 
-  source  = "app.terraform.io/Metsian/ec2/aws"
+  source  = "ec2-54-234-137-178.compute-1.amazonaws.com/Slalom/ec2/aws"
   version = "1.0.0"
 
   ami = "${var.ami}"

@@ -9,14 +9,6 @@ variable "region" {
   
 }
 
-variable "module_source" {
-  
-}
-
-variable "module_version" {
-  
-}
-
 
 
 
