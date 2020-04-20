@@ -17,8 +17,10 @@ terraform {
 }
 
 module "app" {
-  source  = "${var.module_source}"
+
+  source  = "app.terraform.io/Metsian/ec2/aws"
   version = "1.0.0"
+
   ami = "${var.ami}"
   instance_type = "${var.instance_type}"
   }
